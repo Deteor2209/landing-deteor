@@ -12,12 +12,12 @@
 body{
     background: linear-gradient(
         150deg,
-        rgba(204,66,225,1) 0%,
-        rgba(77,34,150,1) 16%,
-        rgba(65,32,137,1) 33%,
-        rgba(47,23,99,1) 51%,
-        rgba(31,13,65,1) 65%,
-        rgba(31,12,66,1) 100%
+        rgb(247, 244, 234) 0%,
+        rgb(235, 231, 230) 16%,
+        rgb(222, 217, 226) 33%,
+        rgb(192, 185, 221) 51%,
+        rgb(128, 161, 212) 65%,
+        rgb(52, 52, 74) 100%
     );
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -42,14 +42,14 @@ img{
 }
 
 .logo{
-    color: #EE13C4;
+    color: #46465A;
     font-size: 25px;
     text-transform: uppercase;
 }
 
 .navbar ul{
     display: flex;
-    align-items: center;
+    
 }
 
 .navbar ul li{
@@ -58,18 +58,20 @@ img{
 }
 
 .navbar ul li a{
-    color: white;
+    color: rgb(70, 70, 90);
+    text-decoration: none;
+    justify-content: space-between;
 }
 
 .navbar ul li a:hover{
-    color: #EE13C4;
+    color: #80A1D4;
 }
 
 #menu{
     display: none;
 }
 
-.menu-icono{
+.menu i{
     width: 25px;
 }
 
@@ -92,13 +94,13 @@ img{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 100px;
     line-height: 1;
-    color: white;
+    color: #46465A;
     margin-bottom: 15px;
 }
 
 .header-txt p{
     font-size: 20px;
-    color: #C1C1C1;
+    color: #34344A;
     margin-bottom: 50px;
 }
 
@@ -107,8 +109,8 @@ img{
     padding: 13px 30px;
     background: linear-gradient(
         90deg,
-        rgba(244,77,243,1) 0%,
-        rgba(225,0,182,1) 100%
+        rgb(128, 161, 212) 0%,
+        rgb(52, 52, 74) 100%
     );
     color: white;
     font-size: 18px;
@@ -133,7 +135,7 @@ img{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #EE13C4;
+        background-color: #34344A;
         display: none;
     }
     .menu .navbar ul{
@@ -143,6 +145,10 @@ img{
     .menu .navbar ul li{
         width: 100%;
         padding: 20px 0;
+    }
+    .menu .navbar ul li a{
+        text-decoration: none;
+        color: rgb(222, 217, 226);
     }
     .menu .navbar ul li a:hover{
         color: #1f0c42;
